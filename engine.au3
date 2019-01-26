@@ -47,6 +47,7 @@ While 1
 	Switch $nMsg
 		Case $GUI_EVENT_CLOSE
 			Exit
-
+		 Case $Button1
+			Exit
 	EndSwitch
 WEnd
