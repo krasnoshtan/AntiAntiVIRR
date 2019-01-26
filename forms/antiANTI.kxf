@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="GUI">
+	<properties>
+		<property name="Left" vt="Int16">193</property>
+		<property name="Top" vt="Int16">213</property>
+		<property name="Width" vt="Int16">680</property>
+		<property name="Height" vt="Int16">243</property>
+		<property name="Caption" vt="String">AntiAntiVIRR</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="Style" vt="Int32">-1798701056</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="Description" vt="String">A standard Windows Form.</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set"/>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TAButton" name="Button1">
+			<properties>
+				<property name="Left" vt="Int16">600</property>
+				<property name="Top" vt="Int16">160</property>
+				<property name="Width" vt="Int8">65</property>
+				<property name="Height" vt="Int8">25</property>
+				<property name="Caption" vt="WString">Выход</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button2">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int16">160</property>
+				<property name="Width" vt="Int8">65</property>
+				<property name="Height" vt="Int8">25</property>
+				<property name="Caption" vt="WString">Помощь</property>
+				<property name="TabOrder" vt="Int8">1</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button3">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">80</property>
+				<property name="Width" vt="Int8">105</property>
+				<property name="Height" vt="Int8">105</property>
+				<property name="Caption" vt="UTF8String">Начать скан</property>
+				<property name="TabOrder" vt="Int8">2</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button4">
+			<properties>
+				<property name="Left" vt="Int8">120</property>
+				<property name="Top" vt="Int8">80</property>
+				<property name="Width" vt="Int8">97</property>
+				<property name="Height" vt="Int8">105</property>
+				<property name="Caption" vt="WString">Очистить</property>
+				<property name="TabOrder" vt="Int8">3</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TACheckbox" name="Checkbox1">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int16">385</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="UTF8String">Удалять даже легитимные антивирусы (AVAST, ESET, etc.)</property>
+				<property name="TabOrder" vt="Int8">4</property>
+				<property name="CtrlStyle" vt="Int32">1342242819</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TACheckbox" name="Checkbox2">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">32</property>
+				<property name="Width" vt="Int16">377</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="UTF8String">Удалять лишние рекламно-мусорные файлы (см. Помощь)</property>
+				<property name="TabOrder" vt="Int8">5</property>
+				<property name="CtrlStyle" vt="Int32">1342242819</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TACheckbox" name="Checkbox3">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">56</property>
+				<property name="Width" vt="Int16">481</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="UTF8String">Разрешить отправку логов для усовершенствования (недоступно в безопасном режиме)</property>
+				<property name="TabOrder" vt="Int8">6</property>
+				<property name="CtrlStyle" vt="Int32">1342242819</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button5">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int16">136</property>
+				<property name="Width" vt="Int16">145</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="UTF8String">Обновить базы</property>
+				<property name="TabOrder" vt="Int8">7</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button6">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int8">112</property>
+				<property name="Width" vt="Int16">145</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="UTF8String">Обновить приложение</property>
+				<property name="TabOrder" vt="Int8">8</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label1">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int8">88</property>
+				<property name="Width" vt="Int16">140</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="UTF8String">Версия баз: </property>
+				<property name="TabOrder" vt="Int8">9</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label2">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int8">64</property>
+				<property name="Width" vt="Int16">141</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="UTF8String">Версия программы: </property>
+				<property name="TabOrder" vt="Int8">10</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button7">
+			<properties>
+				<property name="Left" vt="Int16">224</property>
+				<property name="Top" vt="Int8">80</property>
+				<property name="Width" vt="Int16">161</property>
+				<property name="Height" vt="Int8">105</property>
+				<property name="Caption" vt="UTF8String">Показать удаляемые файлы</property>
+				<property name="TabOrder" vt="Int8">11</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label3">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int16">192</property>
+				<property name="Width" vt="Int16">655</property>
+				<property name="Height" vt="Int8">20</property>
+				<property name="Cursor" vt="Ident">crHelp</property>
+				<property name="Caption" vt="UTF8String">Welcome! Убедитесь что перед очисткой вы обновили базы и загрузились в безопасном режиме.</property>
+				<property name="Font.Charset" vt="Ident">RUSSIAN_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clTeal</property>
+				<property name="Font.Height" vt="Int8">-13</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">12</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+	</components>
+</object>
